@@ -6,18 +6,15 @@ import java.util.stream.Collectors;
 
 public class Logic {
     public int sum(int a, int b) {
-        getCaller();
         return a + b;
     }
 
     public double product(double a, double b) {
-        getCaller();
         getPrinter();
         return a * b;
     }
 
     private boolean getPrinter() {
-        getCaller();
         return false;
     }
 
